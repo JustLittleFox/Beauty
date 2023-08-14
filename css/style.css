@@ -1,0 +1,391 @@
+/* __________________body_____________________ */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+}
+
+/* __________________header_____________________ */
+
+
+.div1 {
+    background: #E5E5E5;
+}
+
+.navtop {
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 17px;
+
+}
+
+.navtop a {
+    text-decoration: none;
+    margin-left: 27px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navmid {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    float: left;
+    cursor: pointer;
+    padding-bottom: 14px;
+    padding-top: 20px;
+}
+
+.tel {
+    float: right;
+    padding-top: 39px;
+}
+
+.tel a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-top: 4px;
+}
+
+.navbot {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 31px;
+}
+
+.navbot a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+.button {
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F13C6E;
+}
+
+.tel a:hover {
+    color: #F13C6E;
+}
+
+.navtop a:hover {
+    color: #F13C6E;
+}
+
+.navbot a:hover {
+    color: #F13C6E;
+}
+
+/* _______________________________________ */
+
+.main1 {
+    background: #F13C6E;
+
+}
+
+.info {
+    float: left;
+    padding-top: 192px;
+    width: 308px;
+}
+
+.info h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 39px;
+    padding-bottom: 54px;
+
+}
+
+.kreslo {
+    float: left;
+    padding-left: 265px;
+    padding-top: 17px;
+
+}
+
+.button2 {
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 9px 45px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color: #F13C6E;
+    cursor: pointer;
+}
+
+/* _________________main2_______________________ */
+.main2 {
+    background: #EFEFEF;
+}
+
+.main2 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 80px;
+}
+
+.list {
+    padding-top: 33px;
+    padding-bottom: 55px;
+    margin: 0 -15px;
+    font-size: 0;
+}
+
+.gum {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.item {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px 30px;
+}
+
+.item img {
+    padding-bottom: 25px;
+    margin-right: 4px;
+}
+
+
+
+.item .txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.item p {
+    font-weight: 500;
+    font-size: 21px;
+    /* line-height: 25px; */
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 15px;
+    /* margin-bottom: 33px; */
+    padding-bottom: 30px;
+}
+
+.item a:hover {
+    color: #F13C6E;
+    text-decoration-line: underline;
+}
+
+.item .buy {
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 14px;
+    text-decoration: none;
+    background: #F13C6E;
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+    padding: 8px 38px;
+
+}
+
+
+.buy:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #F13C6E;
+}
+
+/* ____________________________________________________ */
+
+.footer {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.list2 {
+    font-size: 0;
+    margin: 0 -15px;
+}
+
+.categories {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.gum2 {
+    padding-top: 88px;
+}
+
+.categories h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 45px;
+}
+
+.categories a {
+    text-decoration: none;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.categories li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.categories a:hover {
+    color: #F13C6E
+}
+
+/* ____________________________________________________ */
+
+.botsoc {
+    padding-bottom: 35px;
+}
+
+.social {
+    padding-top: 36px;
+    float: left;
+}
+
+.social a {
+    padding-right: 16px;
+}
+
+
+.tel2 {
+    float: right;
+    padding-top: 40px;
+
+
+}
+
+.tel2 a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-top: 4px;
+}
+
+.tel2 a:hover {
+    color: #F13C6E;
+}
+
+.social a:hover path {
+    fill: #000000;
+}
+
+/* _____________________________________________________ */
+
+.politic {
+    background: #E5E5E5;
+    padding-top: 22px;
+    padding-bottom: 19px;
+}
+
+.politic p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    float: left;
+}
+
+.politic a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    float: right;
+    text-decoration: none;
+}
+
+.politic a:hover {
+    color: #F13C6E;
+}
+
+/* _________________________________________________________________ */
+
+.mr-0 {
+    margin-right: 0;
+}
+
+/* ________________________________________________________________ */
